@@ -58,9 +58,7 @@ client.on('message', async message => {
 // 		height: 500,
 // 		icon _dirname +
 // 	})
-setInterval(function(){
-	console.log("1");
-},2000);
+
 var express = require('express');
 var app     = express();
 
