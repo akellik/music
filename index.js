@@ -58,6 +58,9 @@ client.on('message', async message => {
 // 		height: 500,
 // 		icon _dirname +
 // 	})
+setInterval(function(){
+	console.log("1");
+},2000);
 
 
 client.login(process.env.BOT_TOKEN);
